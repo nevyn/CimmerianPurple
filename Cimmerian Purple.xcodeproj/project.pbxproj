@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051D6B1A1A73C9F1009CE54B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 051D6B191A73C9F1009CE54B /* main.m */; };
+		051D6B1D1A73C9F1009CE54B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 051D6B1C1A73C9F1009CE54B /* AppDelegate.m */; };
+		051D6B1F1A73C9F1009CE54B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 051D6B1E1A73C9F1009CE54B /* art.scnassets */; };
+		051D6B221A73C9F1009CE54B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051D6B211A73C9F1009CE54B /* GameViewController.m */; };
+		051D6B251A73C9F1009CE54B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051D6B231A73C9F1009CE54B /* Main.storyboard */; };
+		051D6B271A73C9F1009CE54B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051D6B261A73C9F1009CE54B /* Images.xcassets */; };
+		051D6B2A1A73C9F1009CE54B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 051D6B281A73C9F1009CE54B /* LaunchScreen.xib */; };
+		051D6B361A73C9F2009CE54B /* Cimmerian_PurpleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 051D6B351A73C9F2009CE54B /* Cimmerian_PurpleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		051D6B301A73C9F2009CE54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 051D6B0C1A73C9F1009CE54B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 051D6B131A73C9F1009CE54B;
+			remoteInfo = "Cimmerian Purple";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		051D6B141A73C9F1009CE54B /* Cimmerian Purple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cimmerian Purple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		051D6B181A73C9F1009CE54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		051D6B191A73C9F1009CE54B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		051D6B1B1A73C9F1009CE54B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		051D6B1C1A73C9F1009CE54B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		051D6B1E1A73C9F1009CE54B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		051D6B201A73C9F1009CE54B /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		051D6B211A73C9F1009CE54B /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		051D6B241A73C9F1009CE54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		051D6B261A73C9F1009CE54B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		051D6B291A73C9F1009CE54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		051D6B2F1A73C9F2009CE54B /* Cimmerian PurpleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cimmerian PurpleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		051D6B341A73C9F2009CE54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		051D6B351A73C9F2009CE54B /* Cimmerian_PurpleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cimmerian_PurpleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		051D6B111A73C9F1009CE54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051D6B2C1A73C9F1009CE54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051D6B0B1A73C9F1009CE54B = {
+			isa = PBXGroup;
+			children = (
+				051D6B161A73C9F1009CE54B /* Cimmerian Purple */,
+				051D6B321A73C9F2009CE54B /* Cimmerian PurpleTests */,
+				051D6B151A73C9F1009CE54B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		051D6B151A73C9F1009CE54B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				051D6B141A73C9F1009CE54B /* Cimmerian Purple.app */,
+				051D6B2F1A73C9F2009CE54B /* Cimmerian PurpleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		051D6B161A73C9F1009CE54B /* Cimmerian Purple */ = {
+			isa = PBXGroup;
+			children = (
+				051D6B1B1A73C9F1009CE54B /* AppDelegate.h */,
+				051D6B1C1A73C9F1009CE54B /* AppDelegate.m */,
+				051D6B1E1A73C9F1009CE54B /* art.scnassets */,
+				051D6B201A73C9F1009CE54B /* GameViewController.h */,
+				051D6B211A73C9F1009CE54B /* GameViewController.m */,
+				051D6B231A73C9F1009CE54B /* Main.storyboard */,
+				051D6B261A73C9F1009CE54B /* Images.xcassets */,
+				051D6B281A73C9F1009CE54B /* LaunchScreen.xib */,
+				051D6B171A73C9F1009CE54B /* Supporting Files */,
+			);
+			path = "Cimmerian Purple";
+			sourceTree = "<group>";
+		};
+		051D6B171A73C9F1009CE54B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				051D6B181A73C9F1009CE54B /* Info.plist */,
+				051D6B191A73C9F1009CE54B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		051D6B321A73C9F2009CE54B /* Cimmerian PurpleTests */ = {
+			isa = PBXGroup;
+			children = (
+				051D6B351A73C9F2009CE54B /* Cimmerian_PurpleTests.m */,
+				051D6B331A73C9F2009CE54B /* Supporting Files */,
+			);
+			path = "Cimmerian PurpleTests";
+			sourceTree = "<group>";
+		};
+		051D6B331A73C9F2009CE54B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				051D6B341A73C9F2009CE54B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		051D6B131A73C9F1009CE54B /* Cimmerian Purple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051D6B391A73C9F2009CE54B /* Build configuration list for PBXNativeTarget "Cimmerian Purple" */;
+			buildPhases = (
+				051D6B101A73C9F1009CE54B /* Sources */,
+				051D6B111A73C9F1009CE54B /* Frameworks */,
+				051D6B121A73C9F1009CE54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cimmerian Purple";
+			productName = "Cimmerian Purple";
+			productReference = 051D6B141A73C9F1009CE54B /* Cimmerian Purple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		051D6B2E1A73C9F1009CE54B /* Cimmerian PurpleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051D6B3C1A73C9F2009CE54B /* Build configuration list for PBXNativeTarget "Cimmerian PurpleTests" */;
+			buildPhases = (
+				051D6B2B1A73C9F1009CE54B /* Sources */,
+				051D6B2C1A73C9F1009CE54B /* Frameworks */,
+				051D6B2D1A73C9F1009CE54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				051D6B311A73C9F2009CE54B /* PBXTargetDependency */,
+			);
+			name = "Cimmerian PurpleTests";
+			productName = "Cimmerian PurpleTests";
+			productReference = 051D6B2F1A73C9F2009CE54B /* Cimmerian PurpleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		051D6B0C1A73C9F1009CE54B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Thirdcog;
+				TargetAttributes = {
+					051D6B131A73C9F1009CE54B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					051D6B2E1A73C9F1009CE54B = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 051D6B131A73C9F1009CE54B;
+					};
+				};
+			};
+			buildConfigurationList = 051D6B0F1A73C9F1009CE54B /* Build configuration list for PBXProject "Cimmerian Purple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 051D6B0B1A73C9F1009CE54B;
+			productRefGroup = 051D6B151A73C9F1009CE54B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				051D6B131A73C9F1009CE54B /* Cimmerian Purple */,
+				051D6B2E1A73C9F1009CE54B /* Cimmerian PurpleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		051D6B121A73C9F1009CE54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051D6B2A1A73C9F1009CE54B /* LaunchScreen.xib in Resources */,
+				051D6B271A73C9F1009CE54B /* Images.xcassets in Resources */,
+				051D6B1F1A73C9F1009CE54B /* art.scnassets in Resources */,
+				051D6B251A73C9F1009CE54B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051D6B2D1A73C9F1009CE54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		051D6B101A73C9F1009CE54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051D6B1D1A73C9F1009CE54B /* AppDelegate.m in Sources */,
+				051D6B221A73C9F1009CE54B /* GameViewController.m in Sources */,
+				051D6B1A1A73C9F1009CE54B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051D6B2B1A73C9F1009CE54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051D6B361A73C9F2009CE54B /* Cimmerian_PurpleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		051D6B311A73C9F2009CE54B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 051D6B131A73C9F1009CE54B /* Cimmerian Purple */;
+			targetProxy = 051D6B301A73C9F2009CE54B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		051D6B231A73C9F1009CE54B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				051D6B241A73C9F1009CE54B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		051D6B281A73C9F1009CE54B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				051D6B291A73C9F1009CE54B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		051D6B371A73C9F2009CE54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		051D6B381A73C9F2009CE54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		051D6B3A1A73C9F2009CE54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cimmerian Purple/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		051D6B3B1A73C9F2009CE54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cimmerian Purple/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		051D6B3D1A73C9F2009CE54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cimmerian PurpleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cimmerian Purple.app/Cimmerian Purple";
+			};
+			name = Debug;
+		};
+		051D6B3E1A73C9F2009CE54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cimmerian PurpleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cimmerian Purple.app/Cimmerian Purple";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		051D6B0F1A73C9F1009CE54B /* Build configuration list for PBXProject "Cimmerian Purple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051D6B371A73C9F2009CE54B /* Debug */,
+				051D6B381A73C9F2009CE54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		051D6B391A73C9F2009CE54B /* Build configuration list for PBXNativeTarget "Cimmerian Purple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051D6B3A1A73C9F2009CE54B /* Debug */,
+				051D6B3B1A73C9F2009CE54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		051D6B3C1A73C9F2009CE54B /* Build configuration list for PBXNativeTarget "Cimmerian PurpleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051D6B3D1A73C9F2009CE54B /* Debug */,
+				051D6B3E1A73C9F2009CE54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 051D6B0C1A73C9F1009CE54B /* Project object */;
+}
