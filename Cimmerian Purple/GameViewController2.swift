@@ -15,7 +15,7 @@ class GameViewController2 : GameViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		var status = audio.configurePlaybackWithSampleRate(48000, numberChannels: 2, inputEnabled: false, mixingEnabled: false);
+		var status = audio.configurePlaybackWithSampleRate(44100, numberChannels: 2, inputEnabled: false, mixingEnabled: false);
 		audio.active = true
 		println("Audio status: \(status.value)");
 		
