@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		051D6B1A1A73C9F1009CE54B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 051D6B191A73C9F1009CE54B /* main.m */; };
 		051D6B1D1A73C9F1009CE54B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 051D6B1C1A73C9F1009CE54B /* AppDelegate.m */; };
-		051D6B1F1A73C9F1009CE54B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 051D6B1E1A73C9F1009CE54B /* art.scnassets */; };
-		051D6B221A73C9F1009CE54B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051D6B211A73C9F1009CE54B /* GameViewController.m */; };
 		051D6B251A73C9F1009CE54B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051D6B231A73C9F1009CE54B /* Main.storyboard */; };
 		051D6B271A73C9F1009CE54B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051D6B261A73C9F1009CE54B /* Images.xcassets */; };
 		051D6B2A1A73C9F1009CE54B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 051D6B281A73C9F1009CE54B /* LaunchScreen.xib */; };
 		051D6B361A73C9F2009CE54B /* Cimmerian_PurpleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 051D6B351A73C9F2009CE54B /* Cimmerian_PurpleTests.m */; };
+		051D6B461A7408F9009CE54B /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051D6B401A7408F9009CE54B /* Entity.swift */; };
+		051D6B471A7408F9009CE54B /* FireGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051D6B411A7408F9009CE54B /* FireGestureRecognizer.swift */; };
+		051D6B481A7408F9009CE54B /* Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 051D6B421A7408F9009CE54B /* Map.png */; };
+		051D6B491A7408F9009CE54B /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051D6B431A7408F9009CE54B /* Map.swift */; };
+		051D6B4A1A7408F9009CE54B /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051D6B441A7408F9009CE54B /* Tile.swift */; };
+		051D6B4B1A7408F9009CE54B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051D6B451A7408F9009CE54B /* GameViewController.swift */; };
+		051D6B521A740F03009CE54B /* GameViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051D6B511A740F03009CE54B /* GameViewController2.swift */; };
+		051D6B541A741E3D009CE54B /* test.pd in Resources */ = {isa = PBXBuildFile; fileRef = 051D6B531A741E3D009CE54B /* test.pd */; };
+		9C15A2206B5EC879CD612363 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 399BCB1C7DC130F96D98A644 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,15 +40,24 @@
 		051D6B191A73C9F1009CE54B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		051D6B1B1A73C9F1009CE54B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		051D6B1C1A73C9F1009CE54B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		051D6B1E1A73C9F1009CE54B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		051D6B201A73C9F1009CE54B /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		051D6B211A73C9F1009CE54B /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		051D6B241A73C9F1009CE54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		051D6B261A73C9F1009CE54B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		051D6B291A73C9F1009CE54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		051D6B2F1A73C9F2009CE54B /* Cimmerian PurpleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cimmerian PurpleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		051D6B341A73C9F2009CE54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		051D6B351A73C9F2009CE54B /* Cimmerian_PurpleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cimmerian_PurpleTests.m; sourceTree = "<group>"; };
+		051D6B3F1A7408F8009CE54B /* Cimmerian Purple-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cimmerian Purple-Bridging-Header.h"; sourceTree = "<group>"; };
+		051D6B401A7408F9009CE54B /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		051D6B411A7408F9009CE54B /* FireGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireGestureRecognizer.swift; sourceTree = "<group>"; };
+		051D6B421A7408F9009CE54B /* Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map.png; sourceTree = "<group>"; };
+		051D6B431A7408F9009CE54B /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		051D6B441A7408F9009CE54B /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		051D6B451A7408F9009CE54B /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		051D6B511A740F03009CE54B /* GameViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController2.swift; sourceTree = "<group>"; };
+		051D6B531A741E3D009CE54B /* test.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.pd; sourceTree = "<group>"; };
+		399BCB1C7DC130F96D98A644 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB58DF4557C7D9AABE4DA179 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F1B3346A6F83BE034C621B49 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C15A2206B5EC879CD612363 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +85,8 @@
 				051D6B161A73C9F1009CE54B /* Cimmerian Purple */,
 				051D6B321A73C9F2009CE54B /* Cimmerian PurpleTests */,
 				051D6B151A73C9F1009CE54B /* Products */,
+				D811E19DD6D846566723683A /* Pods */,
+				C07EBFF25D41A35EAD92B9E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,15 +102,14 @@
 		051D6B161A73C9F1009CE54B /* Cimmerian Purple */ = {
 			isa = PBXGroup;
 			children = (
+				051D6B4C1A7408FE009CE54B /* Game */,
 				051D6B1B1A73C9F1009CE54B /* AppDelegate.h */,
 				051D6B1C1A73C9F1009CE54B /* AppDelegate.m */,
-				051D6B1E1A73C9F1009CE54B /* art.scnassets */,
-				051D6B201A73C9F1009CE54B /* GameViewController.h */,
-				051D6B211A73C9F1009CE54B /* GameViewController.m */,
 				051D6B231A73C9F1009CE54B /* Main.storyboard */,
 				051D6B261A73C9F1009CE54B /* Images.xcassets */,
 				051D6B281A73C9F1009CE54B /* LaunchScreen.xib */,
 				051D6B171A73C9F1009CE54B /* Supporting Files */,
+				051D6B3F1A7408F8009CE54B /* Cimmerian Purple-Bridging-Header.h */,
 			);
 			path = "Cimmerian Purple";
 			sourceTree = "<group>";
@@ -122,6 +140,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		051D6B4C1A7408FE009CE54B /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				051D6B451A7408F9009CE54B /* GameViewController.swift */,
+				051D6B511A740F03009CE54B /* GameViewController2.swift */,
+				051D6B531A741E3D009CE54B /* test.pd */,
+				051D6B4D1A740D3B009CE54B /* Model */,
+				051D6B411A7408F9009CE54B /* FireGestureRecognizer.swift */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		051D6B4D1A740D3B009CE54B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				051D6B401A7408F9009CE54B /* Entity.swift */,
+				051D6B421A7408F9009CE54B /* Map.png */,
+				051D6B431A7408F9009CE54B /* Map.swift */,
+				051D6B441A7408F9009CE54B /* Tile.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C07EBFF25D41A35EAD92B9E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				399BCB1C7DC130F96D98A644 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D811E19DD6D846566723683A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB58DF4557C7D9AABE4DA179 /* Pods.debug.xcconfig */,
+				F1B3346A6F83BE034C621B49 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 051D6B391A73C9F2009CE54B /* Build configuration list for PBXNativeTarget "Cimmerian Purple" */;
 			buildPhases = (
+				EA544E7D656F71763A26DCA0 /* Check Pods Manifest.lock */,
 				051D6B101A73C9F1009CE54B /* Sources */,
 				051D6B111A73C9F1009CE54B /* Frameworks */,
 				051D6B121A73C9F1009CE54B /* Resources */,
+				4FFF70FDC9016209B4C4BECD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,7 +264,8 @@
 			files = (
 				051D6B2A1A73C9F1009CE54B /* LaunchScreen.xib in Resources */,
 				051D6B271A73C9F1009CE54B /* Images.xcassets in Resources */,
-				051D6B1F1A73C9F1009CE54B /* art.scnassets in Resources */,
+				051D6B481A7408F9009CE54B /* Map.png in Resources */,
+				051D6B541A741E3D009CE54B /* test.pd in Resources */,
 				051D6B251A73C9F1009CE54B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,14 +279,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4FFF70FDC9016209B4C4BECD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA544E7D656F71763A26DCA0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		051D6B101A73C9F1009CE54B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				051D6B491A7408F9009CE54B /* Map.swift in Sources */,
 				051D6B1D1A73C9F1009CE54B /* AppDelegate.m in Sources */,
-				051D6B221A73C9F1009CE54B /* GameViewController.m in Sources */,
 				051D6B1A1A73C9F1009CE54B /* main.m in Sources */,
+				051D6B4A1A7408F9009CE54B /* Tile.swift in Sources */,
+				051D6B4B1A7408F9009CE54B /* GameViewController.swift in Sources */,
+				051D6B461A7408F9009CE54B /* Entity.swift in Sources */,
+				051D6B471A7408F9009CE54B /* FireGestureRecognizer.swift in Sources */,
+				051D6B521A740F03009CE54B /* GameViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,21 +446,28 @@
 		};
 		051D6B3A1A73C9F2009CE54B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB58DF4557C7D9AABE4DA179 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Cimmerian Purple/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cimmerian Purple/Cimmerian Purple-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		051D6B3B1A73C9F2009CE54B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1B3346A6F83BE034C621B49 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Cimmerian Purple/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cimmerian Purple/Cimmerian Purple-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -418,6 +524,7 @@
 				051D6B3B1A73C9F2009CE54B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		051D6B3C1A73C9F2009CE54B /* Build configuration list for PBXNativeTarget "Cimmerian PurpleTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +533,7 @@
 				051D6B3E1A73C9F2009CE54B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
