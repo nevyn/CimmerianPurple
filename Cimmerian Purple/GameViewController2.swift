@@ -26,11 +26,20 @@ class GameViewController2 : GameViewController {
 		displayLink!.addToRunLoop(NSRunLoop.mainRunLoop(), forMode: NSRunLoopCommonModes);
 	}
 	
+	override func rotateByHAngle(hAngle: Float, vAngle: Float) {
+		super.rotateByHAngle(hAngle, vAngle: vAngle);
+		PdBase.sendFloat(hAngle, toReceiver: "hAngleDelta");
+	}
+	
 	func update()
 	{
 		var hAngle = heroNode.presentationNode().rotation.w * heroNode.presentationNode().rotation.y
-		
 		PdBase.sendFloat(hAngle, toReceiver: "hAngle");
+		
+        let translation = lookGesture.translationInView(self.view)
+        //let hAngleDelta = acos(Float(translation.x) / 200) - Float(M_PI_2)
+		let hAngleDelta = heroNode.physicsBody!.angularVelocity.x;
+		PdBase.sendFloat(hAngleDelta, toReceiver: "hAngleDelta");
 
 	}
 }
